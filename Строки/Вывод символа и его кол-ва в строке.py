@@ -1,4 +1,4 @@
-s = 'aaabbcaa'
+s = input()
 j = len(s)
 p = j - 1
 b = 0
