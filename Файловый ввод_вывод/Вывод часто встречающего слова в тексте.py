@@ -6,9 +6,9 @@ a = 'ABc a abc'
 b = {}
 c = []
 g = 0
-for i in a:
+for i in a:#проверям в ключах значение
   if i not in b.keys():
-    b[i] = len(i)
+    b[i] = len(i)#если нет, то добавляем
 g = max(b.values())
 for key, value in b.items():
     if value == g:
@@ -17,5 +17,5 @@ for key, value in b.items():
         break
 print(c)
 #with  open (r'C:\Users\79851\PycharmProjects\Alex\venv\GitHub\stepic_study\file.txt','w') as ouf:
-#    ouf.write(c[0] + ' ' + str(c[1]))
+#    ouf.write(c[0] + ' ' + str(c[1]))#вывод строки
 #    ouf.close()
